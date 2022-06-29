@@ -27,7 +27,6 @@ main {
 main section {
   display: grid;
   grid-gap: 20px;
-  padding: 2%;
   color: hsl(204deg, 43%, 93%);
   height: auto;
   background: #000;
@@ -89,6 +88,7 @@ main .bottom .monthly {
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
+  padding: 30px;
 }
 main .bottom .monthly h2 {
   font-size: 16px;
@@ -102,10 +102,17 @@ main .bottom .monthly h3 span {
   font-weight: 700;
 }
 main .bottom .why {
+  padding: 30px;
   display: inline-flex;
-  background: #66dbd9;
+  background: #3dd1cf;
+  background-size: cover;
+  border-radius: 0 0 8px;
   flex-direction: column;
   align-self: center;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
+}
+main .bottom .why h2 {
+  font-size: 16px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
